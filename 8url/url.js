@@ -12,7 +12,7 @@ const myserver=http.createServer((req,res)=>{
 
 
     //these two lines are for checking url jo hum ne import kiya from npmjs... hum prnt kra k check kr rhe
-    const myurl=url.parse(req.url,true); //true lgane se query parameters separe separate dikhae ga
+    const myurl=url.parse(req.url,true); //true lgane se query parameters separe separate dikhae ga mean object main
     console.log(myurl);
 
     const time = new Date().toLocaleTimeString(); //ye proper readable time dikhae ga
