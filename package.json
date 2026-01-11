@@ -5,8 +5,16 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node hello.js"
+    "start": "node hello.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmairAftab/Node-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OmairAftab/Node-js/issues"
+  },
+  "homepage": "https://github.com/OmairAftab/Node-js#readme"
 }
